@@ -171,6 +171,7 @@ export default {
         } else {
           formData.append('s3ObjectLocation', file.s3ObjectLocation);
         }
+        formData.set('file', file.s3ObjectLocation);
       }
       vm.$emit('vdropzone-sending', file, xhr, formData)
     })
