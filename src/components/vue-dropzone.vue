@@ -169,7 +169,6 @@ export default {
             formData.append(key, signature[key]);
           });
         } else {
-          formData.delete(file);
           formData.append('s3ObjectLocation', file.s3ObjectLocation);
         }
       }
