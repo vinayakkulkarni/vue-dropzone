@@ -30,7 +30,7 @@
     "rollup-plugin-replace": "^2.0.0",
     "rollup-plugin-uglify": "^2.0.1",
     "rollup-plugin-vue": "^2.4.1",
-    "serve": "^6.5.2",
+    "serve": "^11.3.2",
     "uglifycss": "0.0.29",
     "vue": "^2.5.16",
     "vue-loader": "^13.7.1",
